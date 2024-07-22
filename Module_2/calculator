@@ -6,6 +6,9 @@
     <title>Calculator</title>
 </head>
 <body>
+    <?php
+    echo "<p>Hello World!</body>p>"
+    ?>
     
 </body>
 </html>
