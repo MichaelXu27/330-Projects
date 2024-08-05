@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f6ef;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #ff6600;
+    padding: 0px 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 40px;
+}
+
+.logo a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.links a{
+    color: black;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.container {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.posts {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+.post {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.post h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.post a {
+    text-decoration: none;
+    color: #ff6600;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+.post p {
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.comments {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.comment {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.comment:last-child {
+    border-bottom: none;
+}
+
+.comment p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
